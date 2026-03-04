@@ -1,0 +1,16 @@
+# Gnosis - Dependencies
+
+# === Core ===
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# === PyTorch ===
+torch>=2.0.0
+torchvision>=0.15.0
+
+# === Data & ML ===
+scikit-learn>=1.3.0
+
+# === Utilities ===
+tqdm>=4.65.0
+Pillow>=10.0.0
