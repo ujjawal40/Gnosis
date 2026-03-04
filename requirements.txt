@@ -1,21 +1,16 @@
 # Gnosis - Dependencies
-# Minimal by design. NumPy first, frameworks later.
 
-# === Phase 0-2: Foundations (NumPy only) ===
+# === Core ===
 numpy>=1.24.0
 matplotlib>=3.7.0
 
-# === Phase 3+: When you need real datasets ===
-# scikit-learn>=1.3.0      # Uncomment when needed for datasets/metrics
+# === PyTorch ===
+torch>=2.0.0
+torchvision>=0.15.0
 
-# === Phase 4+: When scaling beyond NumPy ===
-# torch>=2.0.0             # Uncomment for transformer implementations
-# torchvision>=0.15.0      # Uncomment for vision datasets
-# torchaudio>=2.0.0        # Uncomment for audio tasks
+# === Data & ML ===
+scikit-learn>=1.3.0
 
-# === Phase 6+: Generative models ===
-# Pillow>=10.0.0           # Uncomment for image processing
-# tqdm>=4.65.0             # Uncomment for progress bars
-
-# === Utilities (always useful) ===
-# jupyter>=1.0.0           # Uncomment for notebook experiments
+# === Utilities ===
+tqdm>=4.65.0
+Pillow>=10.0.0
